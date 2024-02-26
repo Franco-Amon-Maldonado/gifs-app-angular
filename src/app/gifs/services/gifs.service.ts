@@ -19,6 +19,7 @@ export class GifsService {
     return [...this._tagsHistory];
   }
 
+
   private organizeHistory(tag: string) {
     tag = tag.toLowerCase();
 
