@@ -3,8 +3,12 @@
     <hr>
 
     <div class="list-group list-reset">
-        <button class="list-group-item list-group-item-action ">
-            Counter
+
+        
+
+
+        <button *ngFor="let tag of tags" class="list-group-item list-group-item-action ">
+            {{ tag | titlecase }}
         </button>
     </div>
 </div>
