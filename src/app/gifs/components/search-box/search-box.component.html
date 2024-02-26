@@ -1,2 +1,8 @@
-<h2>Buscar:</h2>
-<input type="text" class="form-control" placeholder="Buscar gifs...">
+<h2 class="text-white fw-bold mb-3">Buscar:</h2>
+<input 
+    (keyup.enter)="searchTag(textTagInput.value)" 
+    #textTagInput
+    type="text" 
+    class="form-control" 
+    placeholder="Buscar gifs..."
+>
