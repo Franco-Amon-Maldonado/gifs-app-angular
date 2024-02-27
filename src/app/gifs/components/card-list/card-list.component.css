@@ -1,4 +1,11 @@
+
 img{
     aspect-ratio: 16/9;
     object-fit: cover;
+}
+
+.card-list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80vh;
 }
