@@ -40,7 +40,7 @@ export class GifsService {
     //  const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${this.apiKey}&q=${tag}&limit=10`)
 
     this.http.get<SearchResponse>(
-      `https://api.giphy.com/v1/gifs/search?api_key=${this.apiKey}&q=${tag}&limit=10`)
+      `https://api.giphy.com/v1/gifs/search?api_key=${this.apiKey}&q=${tag}&limit=12`)
       .subscribe( (response ) => {
         this.gifList = response.data;
         
