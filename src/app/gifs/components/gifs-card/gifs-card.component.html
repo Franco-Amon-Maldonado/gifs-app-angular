@@ -1,10 +1,10 @@
-<div class="card bg-dark px-3">
-    <shared-lazy-image></shared-lazy-image>
+<div class="card bg-dark px-3 h-100 d-flex justify-content-between ">
+    <shared-lazy-image [url]="gif.images.downsized_medium.url" [alt]="gif.title || 'Sin titulo'"></shared-lazy-image>
     <!-- <img [src]="gif.images.downsized_medium.url" [alt]="gif.title" class="card-img-top a"> -->
-    <div class="card-body text-white text-center">
 
-        <h3 class="card-text fs-5">{{gif.title || 'Sin titulo'}}</h3>
 
-    </div>
+    <h3 class="card-text text-white text-center p-3 fs-5">{{gif.title || 'Sin titulo'}}</h3>
+
+
 
 </div>
