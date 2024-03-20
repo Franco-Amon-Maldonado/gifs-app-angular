@@ -22,14 +22,12 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 
 ```
 npm install
-
 ```
 
 * Una vez instalada estas dependencias levanta el servidor con el siguiente comando (_Esto te abrirá automaticamente una ventana en el navegador_):
 
 ```
 npm server -o
-
 ```
 
 ### Previsualización del proyecto
