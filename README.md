@@ -1,27 +1,43 @@
 # GifsAppAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+## Una simple aplicación de buscador de gifs desarrollada con _angular 16_ con la implementación de un historial de búsqueda. También utiliza _localstorage_ para la persistencia de búsqueda.
 
-## Development server
+## Despliegue 📦
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_https://buscador-de-gifss.netlify.app/_
 
-## Code scaffolding
+## Comenzando 🚀
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Build
+* Abra Git Bash.
+* Escriba `git clone` y pegue la dirección URL del repositorio a clonar.
+* ``` git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Instalación 🔧
 
-## Running unit tests
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* _Abre una terminal y ejecuta lo siguiente para instalar las dependencias:_
 
-## Running end-to-end tests
+```
+npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
 
-## Further help
+* Una vez instalada estas dependencias levanta el servidor con el siguiente comando (_Esto te abrirá automaticamente una ventana en el navegador_):
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm server -o
+
+```
+
+### Previsualización del proyecto
+
+![image](https://github.com/Franco-Amon-Maldonado/gifs-app-angular/assets/112308589/a8c31867-c87f-48bf-8214-46ec4dd42864)
+
+## Construido con 🛠️
+
+
+* [Angular](https://angular.io/docs) - Framework para aplicaciones web
+* [Bootstrap](https://getbootstrap.com/) - Biblioteca de css
